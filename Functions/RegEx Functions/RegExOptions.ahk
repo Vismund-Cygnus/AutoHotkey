@@ -29,7 +29,7 @@
     
     ; remove 'n' characters from the front of the regex string
     ; where 'n' is the length of our options + 1 for the ')' symbol
-    regex := SubStr(regex, 1 - (StrLen(regex) - StrLen(options ")")))
+    regex := SubStr(regex, StrLen(options ")") + 1)
 
     ; options are case sensitive
     O_StringCaseSense := A_StringCaseSense
