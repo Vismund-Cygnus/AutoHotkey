@@ -1,0 +1,85 @@
+﻿v1.1.0
+
+Target release date: 15/1/2014
+
+#-Play
+#-Pause
+#-SetStopAfterCurrent
+-Jump
+-Search
+#-Minimize, Maximize, Resize, Close, etc
+
+-Implement
+    #-MB_GetWindowHandle
+    -Setting_GetFieldName
+    -Setting_GetDataType
+    -Player_GetShowTimeRemaining
+    -Player_GetShowRatingTrack
+    -Player_GetShowRatingLove
+    -Player_GetButtonEnabled
+    -Library_GetFileProperty
+    -Library_GetFileTag
+    -Library_SetFileTag
+    -Library_CommitTagsToFile
+    -Library_GetArtistPicture
+    -Library_GetArtistPictureThumb
+    -Library_GetArtistPictureUrls
+    -Library_GetArtwork
+    -Library_GetArtworkUrl
+    -Library_GetLyrics
+    -Library_AddFileToLibrary
+    #-Library_QueryFiles
+    #-Library_QueryGetNextFile
+    #-Library_QueryGetAllFiles
+    -Library_QuerySimilarArtists
+    -Library_QueryLookupTable
+    -Library_QueryGetLookupTableValue
+    -NowPlaying_GetArtistPicture
+    -NowPlaying_GetArtistPictureThumb
+    -NowPlaying_GetArtistPictureUrls
+    -NowPlaying_GetDownloadedArtwork
+    -NowPlaying_GetDownloadedLyrics
+    -NowPlaying_GetArtworkUrl
+    -NowPlaying_GetDownloadedArtworkUrl
+    -NowPlaying_IsSoundtrack
+    -NowPlaying_GetSoundtrackPictureUrls
+    -NowPlayingList_IsAnyPriorTracks
+    -NowPlayingList_IsAnyFollowingTracks
+    #-NowPlayingList_GetCurrentIndex
+    -NowPlayingList_GetNextIndex
+    -NowPlayingList_GetListFileUrl
+    -NowPlayingList_GetFileProperty
+    -NowPlayingList_GetFileTag
+    -NowPlayingList_QueryFiles
+    -NowPlayingList_QueryGetNextFile
+    -NowPlayingList_QueryGetAllFiles
+    #-NowPlayingList_RemoveAt
+    -NowPlayingList_MoveFiles
+    #-NowPlayingList_PlayNow
+    #-NowPlayingList_QueueNext
+    #-NowPlayingList_QueueLast
+    -NowPlayingList_PlayLibraryShuffled
+    -Playlist_GetName
+    -Playlist_GetType
+    -Playlist_IsInList
+    -Playlist_QueryPlaylists
+    -Playlist_QueryGetNextPlaylist
+    -Playlist_QueryFiles
+    -Playlist_QueryGetNextFile
+    -Playlist_QueryGetAllFiles
+    -Playlist_CreatePlaylist
+    -Playlist_DeletePlaylist
+    -Playlist_SetFiles
+    -Playlist_AppendFiles
+    -Playlist_RemoveAt
+    -Playlist_MoveFiles
+    -Playlist_PlayNow
+    
+-SDK
+    -AutoIt
+    -Python
+    -Ruby
+
+-Installer
+-Documentation
+-Page

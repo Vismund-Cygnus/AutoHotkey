@@ -1,0 +1,25 @@
+W:\MusicBee IPC\obj\x86\Release\mb_IPC.csprojResolveAssemblyReference.cache
+W:\MusicBee IPC\obj\x86\Release\MusicBeePlugin.MBIPCForm.resources
+W:\MusicBee IPC\obj\x86\Release\mb_IPC.csproj.GenerateResource.Cache
+W:\MusicBee IPC\bin\x86\Release\mb_IPC.dll.config
+W:\MusicBee IPC\bin\x86\Release\mb_IPC.dll
+W:\MusicBee IPC\bin\x86\Release\mb_IPC.pdb
+W:\MusicBee IPC\obj\x86\Release\mb_IPC.dll
+W:\MusicBee IPC\obj\x86\Release\mb_IPC.pdb
+W:\MusicBee IPC\obj\x86\Release\MusicBeePlugin.About.resources
+W:\MusicBeeIPC\bin\x86\Release\mb_IPC.dll.config
+W:\MusicBeeIPC\bin\x86\Release\mb_IPC.dll
+W:\MusicBeeIPC\bin\x86\Release\mb_IPC.pdb
+W:\MusicBeeIPC\obj\x86\Release\mb_IPC.csprojResolveAssemblyReference.cache
+W:\MusicBeeIPC\obj\x86\Release\MusicBeePlugin.About.resources
+W:\MusicBeeIPC\obj\x86\Release\mb_IPC.csproj.GenerateResource.Cache
+W:\MusicBeeIPC\obj\x86\Release\mb_IPC.dll
+W:\MusicBeeIPC\obj\x86\Release\mb_IPC.pdb
+Z:\zorexx Files\Development\Plugins\MusicBeeIPC\v2.0\MusicBeeIPC\bin\x86\Release\mb_IPC.dll.config
+Z:\zorexx Files\Development\Plugins\MusicBeeIPC\v2.0\MusicBeeIPC\bin\x86\Release\mb_IPC.dll
+Z:\zorexx Files\Development\Plugins\MusicBeeIPC\v2.0\MusicBeeIPC\bin\x86\Release\mb_IPC.pdb
+Z:\zorexx Files\Development\Plugins\MusicBeeIPC\v2.0\MusicBeeIPC\obj\x86\Release\mb_IPC.csprojResolveAssemblyReference.cache
+Z:\zorexx Files\Development\Plugins\MusicBeeIPC\v2.0\MusicBeeIPC\obj\x86\Release\MusicBeePlugin.About.resources
+Z:\zorexx Files\Development\Plugins\MusicBeeIPC\v2.0\MusicBeeIPC\obj\x86\Release\mb_IPC.csproj.GenerateResource.Cache
+Z:\zorexx Files\Development\Plugins\MusicBeeIPC\v2.0\MusicBeeIPC\obj\x86\Release\mb_IPC.dll
+Z:\zorexx Files\Development\Plugins\MusicBeeIPC\v2.0\MusicBeeIPC\obj\x86\Release\mb_IPC.pdb
