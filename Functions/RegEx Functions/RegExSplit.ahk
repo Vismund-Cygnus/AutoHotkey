@@ -25,14 +25,14 @@ RegExSplit(haystack, regex, limit := -1, flags := 0x0) {
 
     for #, match in matches[0] {
         matchStr := match[1], matchPos := match[2], matchLen := StrLen(matchStr)
-        
+
         partLen := matchPos - offset
-        
+
         partStr := SubStr(haystack, offset, partLen)
-        
+
         if !(NO_EMPTY && !StrLen(partStr))
             outArray.Push(OFFSET_CAPTURE ? [partStr, offset] : partStr)
-        
+
         if (DELIM_CAPTURE && RegExMatch(matchStr, rgx, subs)) {
             while (sub := subs[A_Index]) {
                 if !(NO_EMPTY && !StrLen(sub)) {
@@ -48,18 +48,18 @@ RegExSplit(haystack, regex, limit := -1, flags := 0x0) {
             }
         } else delims := 0
 
-        offset := matchPos + matchLen
-        
+        offset += partLen + matchLen
+
         count := outArray.Count() - delims
 
-        if (count + 1 = limit) {
-            partStr := SubStr(haystack, offset)
+        if (count + 1 = limit)
             break
-        } else {
-            partStr := SubStr(haystack, offset, partLen)
-        }
     }
-    
+
+    offset := matchPos + matchLen
+
+    partStr := SubStr(haystack, offset)
+
     if !(NO_EMPTY && !StrLen(partStr))
         outArray.Push(OFFSET_CAPTURE ? [partStr, offset] : partStr)
 
