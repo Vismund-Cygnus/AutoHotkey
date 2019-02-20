@@ -17,7 +17,7 @@
 
         this.LangType := ["TEXT", "PHP", "C", "CPP", "CS", "OBJC", "JAVA", "RC", "HTML", "XML", "MAKEFILE", "PASCAL", "BATCH", "INI", "ASCII", "USER", "ASP", "SQL", "VB", "JS", "CSS", "PERL", "PYTHON", "LUA", "TEX", "FORTRAN", "BASH", "FLASH", "NSIS", "TCL", "LISP", "SCHEME", "ASM", "DIFF", "PROPS", "PS", "RUBY", "SMALLTALK", "VHDL", "KIX", "AU3", "CAML", "ADA", "VERILOG", "MATLAB", "HASKELL", "INNO", "SEARCHRESULT", "CMAKE", "YAML", "COBOL", "GUI4CLI", "D", "POWERSHELL", "R", "JSP", "COFFEESCRIPT", "JSON", "JAVASCRIPT", "FORTRAN_77", "BAANC", "SREC", "IHEX", "TEHEX", "SWIFT", "ASN1", "AVS", "BLITZBASIC", "PUREBASIC", "FREEBASIC", "CSOUND", "ERLANG", "ESCRIPT", "FORTH", "LATEX", "MMIXAL", "NIMROD", "NNCRONTAB", "OSCRIPT", "REBOL", "REGISTRY", "RUST", "SPICE", "TXT2TAGS", "VISUALPROLOG", "EXTERNAL"]
         this.winVer := ["UNKNOWN", "WIN32S", "95", "98", "ME", "NT", "W2K", "XP", "S2003", "XPX64", "VISTA", "WIN7", "WIN8", "WIN81", "WIN10"]
-        this.Platform ["UNKNOWN", "X86", "X64", "IA64"]
+        this.Platform := ["UNKNOWN", "X86", "X64", "IA64"]
     }
 
     __Delete() {
