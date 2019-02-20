@@ -342,21 +342,18 @@
     }
 
     ; # Set caret to start of a line and ensure it is visible.
-    ; fun void GotoLine=p2024(int line,)
     GotoLine(line) {
-        return
+        return this.PostMsg(this.hwndSci, 2024, line)
     }
 
     ; # Set caret to a position and ensure it is visible.
-    ; fun void GotoPos=p2025(position pos,)
     GotoPos(pos) {
-        return
+        return this.PostMsg(this.hwndSci, 2025, pos)
     }
 
     ; # Set the selection anchor to a position. The anchor is the opposite end of the selection from the caret.
-    ; set void SetAnchor=p2026(position posAnchor,)
     SetAnchor(posAnchor) {
-        return
+        return this.PostMsg(this.hwndSci, 2026, posAnchor)
     }
 
     ; # Retrieve the text of the line containing the caret. Returns the index of the caret on the line. Result is NUL-terminated.
@@ -399,15 +396,13 @@
     }
 
     ; # Retrieve the column number of a position, taking tab width into account.
-    ; get int GetColumn=s2129(position pos,)
     GetColumn(pos) {
-        return
+        return this.SendMsg(this.hwndSci, 2129, pos)
     }
 
     ; # Get the position after the last visible characters on a line.
-    ; get position GetLineEndPosition=s2136(int line,)
     GetLineEndPosition(line) {
-        return
+        return this.SendMsg(this.hwndSci, 2136, line)
     }
 
     ; Get the code page used to interpret the bytes of the document as characters.
@@ -416,51 +411,51 @@
     }
 
     ; # Sets the position of the caret.
-    ; set void SetCurrentPos=p2141(position pos,)
     SetCurrentPos(pos) {
-        return
+        return this.PostMsg(this.hwndSci, 2141, pos)
     }
 
     ; # Sets the position that starts the selection - this becomes the anchor.
-    ; set void SetSelectionStart=p2142(position pos,)
     SetSelectionStart(pos) {
-        return
+        return this.PostMsg(this.hwndSci, 2142, pos)
     }
 
     ; # Returns the position at the start of the selection.
-    ; get position GetSelectionStart=s2143(,)
     GetSelectionStart() {
-        return
+        return this.SendMsg(this.hwndSci, 2143)
     }
 
     ; # Sets the position that ends the selection - this becomes the currentPosition.
-    ; set void SetSelectionEnd=p2144(position pos,)
     SetSelectionEnd(pos) {
-        return
+        return this.PostMsg(this.hwndSci, 2144, pos)
     }
 
     ; # Returns the position at the end of the selection.
-    ; get position GetSelectionEnd=s2145(,)
     GetSelectionEnd() {
-        return
+        return this.SendMsg(this.hwndSci, 2145)
     }
 
     ; # Retrieve the display line at the top of the display.
-    ; get int GetFirstVisibleLine=s2152(,)
     GetFirstVisibleLine() {
-        return
+        return this.SendMsg(this.hwndSci, 2152)
     }
 
     ; # Retrieve the contents of a line. Returns the length of the line.
-    ; fun int GetLine=r2153(int line, stringresult text)
-    GetLine(line, text) {
-        return
+    GetLine(line) {
+        bufferBytes := this.SendMsg(this.hwndSci, 2153, line) + 1
+        this.hProc := this.OpenProcess()
+        bufferAddress := this.OpenBuffer(bufferBytes)
+        this.SendMsg(this.hwndSci, 2153, line, bufferAddress)
+        encoding := "CP" this.GetCodePage()
+        stringresult := this.ReadBuffer(bufferAddress, bufferBytes, encoding)
+        this.CloseBuffer(bufferAddress)
+        this.CloseProcess()
+        return stringresult
     }
 
     ; # Returns the number of lines in the document. There is always at least one.
-    ; get int GetLineCount=s2154(,)
     GetLineCount() {
-        return
+        return this.SendMsg(this.hwndSci, 2154)
     }
 
     ; Retrieve the selected text.
