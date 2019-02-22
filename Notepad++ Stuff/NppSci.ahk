@@ -39,11 +39,10 @@
 
     ReadBuffer(address, bytes, encoding := "UTF-16") {
         VarSetCapacity(localBuffer, bytes)
-        DllCall("ReadProcessMemory", "Ptr", this.hProc , "Ptr", address
+        DllCall("ReadProcessMemory", "Ptr", this.hProc,   "Ptr", address
                                    , "Ptr", &localBuffer, "Ptr", bytes
                                    , "Ptr", 0)
-        localBuffer := StrGet(&localbuffer, bytes, encoding)
-        return localBuffer
+        return StrGet(&localbuffer, bytes, encoding)
     }
 
     WriteBuffer(string, address := 0, encoding := "") {
@@ -474,7 +473,7 @@
     ; Replace the selected text with the argument text.
     ReplaceSel(text) {
         encoding := "CP" this.GetCodePage()
-        bufferBytes := this.WriteBuffer(text, encoding)
+        bufferBytes := this.WriteBuffer(text, , encoding)
         this.hProc := this.OpenProcess()
         bufferAddress := this.OpenBuffer(bufferBytes)
         this.WriteBuffer(text, bufferAddress, encoding)
