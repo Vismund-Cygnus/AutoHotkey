@@ -16,17 +16,16 @@ class MusicBeeIPC {
         className := this.__Class
         %className% := this
 
-        #include %A_LineFile%\..\Enums.ahk
-        #include %A_LineFile%\..\Constants.ahk
+        #include %A_LineFile%\..\Lib\Enums.ahk
+        #include %A_LineFile%\..\Lib\Constants.ahk
         DetectHiddenWindows, On
         
         return this
     }
 
-    #include %A_LineFile%\..\Pack.ahk
+    #include %A_LineFile%\..\Lib\Pack.ahk
+    #include %A_LineFile%\..\Lib\Unpack.ahk
 
-    #include %A_LineFile%\..\Unpack.ahk
-    
     GetHwndIPC() {
         O_DetectHiddenWindows := A_DetectHiddenWindows
         DetectHiddenWindows, On
