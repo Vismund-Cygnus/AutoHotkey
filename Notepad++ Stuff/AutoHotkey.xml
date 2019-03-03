@@ -1,0 +1,1042 @@
+﻿<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+    <AutoComplete language="AutoHotkey">
+        <Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar="" />
+		<KeyWord name="Abs" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the absolute value of Number.&#x0a;The return value is the same type as Number (integer or floating point).&#x0a;">
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ACos" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the arccosine (the number whose cosine is Number) in radians.&#x0a;If Number is less than -1 or greater than 1, the function yields a blank result (empty string).&#x0a;" >
+                <Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Add" />
+		<KeyWord name="AllowSameLineComments" />
+		<KeyWord name="AlwaysOnTop" />
+		<KeyWord name="Asc" func="yes" >
+			<Overload retVal="&#x0a;Number := " descr="&#x0a;Returns the numeric value of the first byte or UTF-16 code unit in the specified string.&#x0a;" >
+				<Param name="String" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ASin" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the arcsine (the number whose sine is Number) in radians.&#x0a;If Number is less than -1 or greater than 1, the function yields a blank result (empty string).&#x0a;" >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ATan" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the arctangent (the number whose tangent is Number) in radians.&#x0a;" >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="A_AhkPath" />
+		<KeyWord name="A_AhkVersion" />
+		<KeyWord name="A_AppData" />
+		<KeyWord name="A_AppDataCommon" />
+		<KeyWord name="A_Args" />
+		<KeyWord name="A_AutoTrim" />
+		<KeyWord name="A_BatchLines" />
+		<KeyWord name="A_CaretX" />
+		<KeyWord name="A_CaretY" />
+		<KeyWord name="A_ComputerName" />
+		<KeyWord name="A_ComSpec" />
+		<KeyWord name="A_ControlDelay" />
+		<KeyWord name="A_CoordModeCaret" />
+		<KeyWord name="A_CoordModeMenu" />
+		<KeyWord name="A_CoordModeMouse" />
+		<KeyWord name="A_CoordModePixel" />
+		<KeyWord name="A_CoordModeToolTip" />
+		<KeyWord name="A_Cursor" />
+		<KeyWord name="A_DD" />
+		<KeyWord name="A_DDD" />
+		<KeyWord name="A_DDDD" />
+		<KeyWord name="A_DefaultGui" />
+		<KeyWord name="A_DefaultListView" />
+		<KeyWord name="A_DefaultMouseSpeed" />
+		<KeyWord name="A_DefaultTreeView" />
+		<KeyWord name="A_Desktop" />
+		<KeyWord name="A_DesktopCommon" />
+		<KeyWord name="A_DetectHiddenText" />
+		<KeyWord name="A_DetectHiddenWindows" />
+		<KeyWord name="A_EndChar" />
+		<KeyWord name="A_EventInfo" />
+		<KeyWord name="A_ExitReason" />
+		<KeyWord name="A_FileEncoding" />
+		<KeyWord name="A_FormatFloat" />
+		<KeyWord name="A_FormatInteger" />
+		<KeyWord name="A_Gui" />
+		<KeyWord name="A_GuiControl" />
+		<KeyWord name="A_GuiControlEvent" />
+		<KeyWord name="A_GuiEvent" />
+		<KeyWord name="A_GuiHeight" />
+		<KeyWord name="A_GuiWidth" />
+		<KeyWord name="A_GuiX" />
+		<KeyWord name="A_GuiY" />
+		<KeyWord name="A_Hour" />
+		<KeyWord name="A_IconFile" />
+		<KeyWord name="A_IconHidden" />
+		<KeyWord name="A_IconNumber" />
+		<KeyWord name="A_IconTip" />
+		<KeyWord name="A_Index" />
+		<KeyWord name="A_IPAddress1" />
+		<KeyWord name="A_IPAddress2" />
+		<KeyWord name="A_IPAddress3" />
+		<KeyWord name="A_IPAddress4" />
+		<KeyWord name="A_Is64bitOS" />
+		<KeyWord name="A_IsAdmin" />
+		<KeyWord name="A_IsCompiled" />
+		<KeyWord name="A_IsCritical" />
+		<KeyWord name="A_IsPaused" />
+		<KeyWord name="A_IsSuspended" />
+		<KeyWord name="A_IsUnicode" />
+		<KeyWord name="A_KeyDelay" />
+		<KeyWord name="A_KeyDelayPlay" />
+		<KeyWord name="A_KeyDuration" />
+		<KeyWord name="A_KeyDurationPlay" />
+		<KeyWord name="A_Language" />
+		<KeyWord name="A_LastError" />
+		<KeyWord name="A_LineFile" />
+		<KeyWord name="A_LineNumber" />
+		<KeyWord name="A_ListLines" />
+		<KeyWord name="A_LoopField" />
+		<KeyWord name="A_LoopFileAttrib" />
+		<KeyWord name="A_LoopFileDir" />
+		<KeyWord name="A_LoopFileExt" />
+		<KeyWord name="A_LoopFileFullPath" />
+		<KeyWord name="A_LoopFileLongPath" />
+		<KeyWord name="A_LoopFileName" />
+		<KeyWord name="A_LoopFilePath" />
+		<KeyWord name="A_LoopFileShortName" />
+		<KeyWord name="A_LoopFileShortPath" />
+		<KeyWord name="A_LoopFileSize" />
+		<KeyWord name="A_LoopFileSizeKB" />
+		<KeyWord name="A_LoopFileSizeMB" />
+		<KeyWord name="A_LoopFileTimeAccessed" />
+		<KeyWord name="A_LoopFileTimeCreated" />
+		<KeyWord name="A_LoopFileTimeModified" />
+		<KeyWord name="A_LoopReadLine" />
+		<KeyWord name="A_LoopRegKey" />
+		<KeyWord name="A_LoopRegName" />
+		<KeyWord name="A_LoopRegSubKey" />
+		<KeyWord name="A_LoopRegTimeModified" />
+		<KeyWord name="A_LoopRegType" />
+		<KeyWord name="A_MDay" />
+		<KeyWord name="A_Min" />
+		<KeyWord name="A_MM" />
+		<KeyWord name="A_MMM" />
+		<KeyWord name="A_MMMM" />
+		<KeyWord name="A_Mon" />
+		<KeyWord name="A_MouseDelay" />
+		<KeyWord name="A_MouseDelayPlay" />
+		<KeyWord name="A_MSec" />
+		<KeyWord name="A_MyDocuments" />
+		<KeyWord name="A_Now" />
+		<KeyWord name="A_NowUTC" />
+		<KeyWord name="A_NumBatchLines" />
+		<KeyWord name="A_OSType" />
+		<KeyWord name="A_OSVersion" />
+		<KeyWord name="A_PriorHotkey" />
+		<KeyWord name="A_PriorKey" />
+		<KeyWord name="A_ProgramFiles" />
+		<KeyWord name="A_Programs" />
+		<KeyWord name="A_ProgramsCommon" />
+		<KeyWord name="A_PtrSize" />
+		<KeyWord name="A_RegView" />
+		<KeyWord name="A_ScreenDPI" />
+		<KeyWord name="A_ScreenHeight" />
+		<KeyWord name="A_ScreenWidth" />
+		<KeyWord name="A_ScriptDir" />
+		<KeyWord name="A_ScriptFullPath" />
+		<KeyWord name="A_ScriptHwnd" />
+		<KeyWord name="A_ScriptName" />
+		<KeyWord name="A_Sec" />
+		<KeyWord name="A_SendLevel" />
+		<KeyWord name="A_SendMode" />
+		<KeyWord name="A_Space" />
+		<KeyWord name="A_StartMenu" />
+		<KeyWord name="A_StartMenuCommon" />
+		<KeyWord name="A_Startup" />
+		<KeyWord name="A_StartupCommon" />
+		<KeyWord name="A_StoreCapsLockMode" />
+		<KeyWord name="A_StringCaseSense" />
+		<KeyWord name="A_Tab" />
+		<KeyWord name="A_Temp" />
+		<KeyWord name="A_ThisFunc" />
+		<KeyWord name="A_ThisHotkey" />
+		<KeyWord name="A_ThisLabel" />
+		<KeyWord name="A_ThisMenu" />
+		<KeyWord name="A_ThisMenuItem" />
+		<KeyWord name="A_ThisMenuItemPos" />
+		<KeyWord name="A_TickCount" />
+		<KeyWord name="A_TimeIdle" />
+		<KeyWord name="A_TimeIdleKeyboard" />
+		<KeyWord name="A_TimeIdleMouse" />
+		<KeyWord name="A_TimeIdlePhysical" />
+		<KeyWord name="A_TimeSincePriorHotkey" />
+		<KeyWord name="A_TimeSinceThisHotkey" />
+		<KeyWord name="A_TitleMatchMode" />
+		<KeyWord name="A_TitleMatchModeSpeed" />
+		<KeyWord name="A_UserName" />
+		<KeyWord name="A_WDay" />
+		<KeyWord name="A_WinDelay" />
+		<KeyWord name="A_WinDir" />
+		<KeyWord name="A_WorkingDir" />
+		<KeyWord name="A_YDay" />
+		<KeyWord name="A_Year" />
+		<KeyWord name="A_YWeek" />
+		<KeyWord name="A_YYYY" />
+		<KeyWord name="Bind" />
+		<KeyWord name="Bottom" />
+		<KeyWord name="Break" />
+		<KeyWord name="ByRef" />
+		<KeyWord name="Call" />
+		<KeyWord name="Cancel" />
+		<KeyWord name="Capacity" />
+		<KeyWord name="Catch" />
+		<KeyWord name="Ceil" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns Number rounded up to the nearest integer (without any .00 suffix).&#x0a;" >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Check" />
+		<KeyWord name="Checked" />
+		<KeyWord name="Choice" />
+		<KeyWord name="Choose" />
+		<KeyWord name="ChooseString" />
+		<KeyWord name="Chr" func="yes" >
+			<Overload retVal="&#x0a;String := " >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Class" />
+		<KeyWord name="Click" />
+		<KeyWord name="Clipboard" />
+		<KeyWord name="ClipboardAll" />
+		<KeyWord name="ClipboardTimeout" />
+		<KeyWord name="Clone" />
+		<KeyWord name="Close" />
+		<KeyWord name="Color" />
+		<KeyWord name="CommentFlag" />
+		<KeyWord name="ComObjActive" func="yes" >
+			<Overload retVal="&#x0a;ComObject := " descr="&#x0a;Retrieves a running object that has been registered with OLE.&#x0a;" >
+                <Param name="CLSID" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjArray" func="yes" >
+			<Overload retVal="&#x0a;ArrayObj := " descr="&#x0a;Creates a SafeArray for use with COM.&#x0a;" >
+				<Param name="VarType" />
+				<Param name="Count1" />
+				<Param name="[Count2" />
+				<Param name="... Count8]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjConnect" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Connects the object's event sources to functions with a given prefix.&#x0a;" >
+				<Param name="ComObject" />
+				<Param name="[Prefix]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjCreate" func="yes" >
+			<Overload retVal="&#x0a;ComObject := " descr="&#x0a;Creates a COM object.&#x0a;" >
+				<Param name="CLSID" />
+				<Param name="[IID]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObject" func="yes" >
+			<Overload retVal="&#x0a;ParamObj := " descr="&#x0a;Creates an object representing a typed value to be passed as a parameter or return value.&#x0a;" >
+				<Param name="VarType" />
+				<Param name="Value" />
+				<Param name="[Flags]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjEnwrap" func="yes" >
+			<Overload retVal="&#x0a;ComObject := " descr="&#x0a;Wraps or unwraps a raw IDispatch pointer in a usable object and automatically calls AddRef.&#x0a;" >
+				<Param name="DispPtr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjError" func="yes" >
+			<Overload retVal="&#x0a;Enabled := " descr="&#x0a;Enables or disables notification of COM errors.&#x0a;" >
+				<Param name="[Enable]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjFlags" func="yes" >
+			<Overload retVal="&#x0a;Flags := " descr="&#x0a;Retrieves or changes flags which control a COM wrapper object's behaviour.&#x0a;" >
+				<Param name="ComObject" />
+				<Param name="[NewFlags" />
+				<Param name="Mask]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjGet" func="yes" >
+			<Overload retVal="&#x0a;ComObject := " descr="&#x0a;Returns a reference to an object provided by a COM component.&#x0a;" >
+				<Param name="Name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjMissing" func="yes" >
+			<Overload retVal="&#x0a;ParamObj := " descr="&#x0a;Creates an object which may be used in place of an optional parameter's default value when calling a method of a COM object.&#x0a;[v1.1.12+]: This function is obsolete. Instead, simply write two consecutive commas, as in Obj.Method(1,,3)&#x0a;" >
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjQuery" func="yes" >
+			<Overload retVal="&#x0a;InterfacePointer := " descr="&#x0a;Queries a COM object for an interface or service.&#x0a;" >
+				<Param name="ComObject" />
+				<Param name="[SID]" />
+				<Param name="IID" />
+			</Overload>
+		</KeyWord>
+        <KeyWord name="ComObjType" func="yes" >
+			<Overload retVal="&#x0a;VarType := " descr="&#x0a;Returns an integer variant type code indicating the type of value contained by the COM wrapper object.&#x0a;" >
+				<Param name="ComObject" />
+			</Overload>
+			<Overload retVal="&#x0a;IName := " descr="&#x0a;Returns the name of the object's default interface.&#x0a;" >
+				<Param name="ComObject" />
+				<Param name="&quot;Name&quot;" />
+			</Overload>
+			<Overload retVal="&#x0a;IID := " descr="&#x0a;Returns a globally unique identifier (GUID) of the object's default interface.&#x0a;">
+				<Param name="ComObject" />
+				<Param name="&quot;IID&quot;" />
+			</Overload>
+			<Overload retVal="&#x0a;CName := " descr="&#x0a;Returns the object's class name.Note that this is not the same as a Prog ID (a Prog ID is a name used to identify the class in the system registry, or for ComObjCreate).&#x0a;" >
+				<Param name="ComObject" />
+				<Param name="&quot;Class&quot;" />
+			</Overload>
+			<Overload retVal="&#x0a;CLSID := " descr="&#x0a;Returns the globally unique identifier (GUID) of the object's class.Classes are often registered by CLSID under the HKCR\CLSID registry key.&#x0a;" >
+				<Param name="ComObject" />
+				<Param name="&quot;CLSID&quot;" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjUnwrap" func="yes" >
+			<Overload retVal="&#x0a;DispPtr := " descr="&#x0a;Wraps or unwraps a raw IDispatch pointer in a usable object and automatically calls AddRef.&#x0a;" >
+				<Param name="ComObject" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ComObjValue" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Retrieves the value or pointer stored in a COM wrapper object.&#x0a;" >
+				<Param name="ComObject" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Continue" />
+		<KeyWord name="ControlList" />
+		<KeyWord name="ControlListHwnd" />
+		<KeyWord name="Cos" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the trigonometric cosine of Number.&#x0a;Number must be expressed in radians.&#x0a;" >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Count" />
+		<KeyWord name="CurrentCol" />
+		<KeyWord name="CurrentLine" />
+		<KeyWord name="Default" />
+		<KeyWord name="Delete" />
+		<KeyWord name="DeleteAll" />
+		<KeyWord name="Deref" />
+		<KeyWord name="Destroy" />
+		<KeyWord name="Disable" />
+		<KeyWord name="DllCall" func="yes">
+            <Overload retVal="&#x0a;Result := " descr="&#x0a;Calls a function inside a DLL, such as a standard Windows API function.&#x0a;" >
+				<Param name="&quot;[DllFile\]Function&quot;" />
+				<Param name="[Type1" />
+				<Param name="Arg1" />
+				<Param name="Type2" />
+				<Param name="Arg2" />
+				<Param name="&quot;Cdecl ReturnType&quot;]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Edit" />
+		<KeyWord name="EditPaste" />
+		<KeyWord name="Eject" />
+		<KeyWord name="Else" />
+		<KeyWord name="Enable" />
+		<KeyWord name="Enabled" />
+		<KeyWord name="ErrorStdOut" />
+		<KeyWord name="EscapeChar" />
+		<KeyWord name="Exception" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Creates an object with properties, also common to exceptions created by runtime errors.&#x0a;" >
+				<Param name="Message" />
+				<Param name="[What" />
+				<Param name="Extra]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Exist" />
+		<KeyWord name="Exit" />
+		<KeyWord name="ExitApp" />
+		<KeyWord name="Exp" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns e (which is approximately 2.71828182845905) raised to the Nth power.&#x0a;N may be negative and may contain a decimal point. To raise numbers other than e to a power, use the ** operator.&#x0a;" >
+				<Param name="N" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ExStyle" />
+		<KeyWord name="Extends" />
+		<KeyWord name="FileExist" func="yes" >
+			<Overload retVal="&#x0a;AttributeString := " descr="&#x0a;Checks for the existence of a file or folder and returns its attributes.&#x0a;" >
+				<Param name="FilePattern" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FileOpen" func="yes" >
+			<Overload retVal="&#x0a;file := " descr="&#x0a;Opens a file.&#x0a;" >
+				<Param name="Filename" />
+				<Param name="Flags" />
+				<Param name="[Encoding]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FileSystem" />
+		<KeyWord name="Finally" />
+		<KeyWord name="FindString" />
+		<KeyWord name="Flash" />
+		<KeyWord name="Floor" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns Number rounded down to the nearest integer (without any .00 suffix).&#x0a;" >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Focus" />
+		<KeyWord name="FocusV" />
+		<KeyWord name="Font" />
+		<KeyWord name="For" />
+		<KeyWord name="Format" func="yes" >
+			<Overload retVal="&#x0a;String := " descr="&#x0a;Formats a variable number of input values according to a format string.&#x0a;" >
+				<Param name="FormatStr" />
+				<Param name="[Values...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Func" func="yes" >
+			<Overload retVal="&#x0a;FunctionReference := " descr="&#x0a;Retrieves a reference to the specified function.&#x0a;" >
+				<Param name="FunctionName" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GetAddress" />
+		<KeyWord name="GetCapacity" />
+		<KeyWord name="GetKeyName" func="yes" >
+			<Overload retVal="&#x0a;String := " descr="&#x0a;Retrieves the name of a key.&#x0a;" >
+				<Param name="Key" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GetKeySC" func="yes" >
+			<Overload retVal="&#x0a;Number := " descr="&#x0a;Retrieves the scan code of a key.&#x0a;" >
+				<Param name="Key" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GetKeyState" func="yes" >
+			<Overload retVal="&#x0a;KeyIsDown := " descr="&#x0a;Checks if a keyboard key or mouse/joystick button is down or up. Also retrieves joystick status.&#x0a;" >
+				<Param name="KeyName" />
+				<Param name="[Mode]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GetKeyVK" func="yes" >
+			<Overload retVal="&#x0a;Number := " descr="&#x0a;Retrieves the virtual key code of a key.&#x0a;" >
+				<Param name="Key" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Global" />
+		<KeyWord name="Gosub" />
+		<KeyWord name="Goto" />
+		<KeyWord name="HasKey" />
+		<KeyWord name="Hide" />
+		<KeyWord name="HideDropDown" />
+		<KeyWord name="HotkeyInterval" />
+		<KeyWord name="HotkeyModifierTimeout" />
+		<KeyWord name="Hotstring" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Creates, modifies, enables, or disables a hotstring while the script is running.&#x0a;" >
+				<Param name="NewOptions" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="HTML" />
+		<KeyWord name="Hwnd" />
+		<KeyWord name="Icon" />
+		<KeyWord name="ID" />
+		<KeyWord name="IDLast" />
+		<KeyWord name="IfTimeout" />
+		<KeyWord name="IfWinActive" />
+		<KeyWord name="IfWinExist" />
+		<KeyWord name="IfWinNotActive" />
+		<KeyWord name="IfWinNotExist" />
+		<KeyWord name="IL_Add" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Adds an icon or picture to the specified ImageListID and returns the new icon's index (1 is the first icon, 2 is the second, and so on).&#x0a;" >
+				<Param name="ImageListID" />
+				<Param name="Filename" />
+				<Param name="[IconNumber" />
+				<Param name="ResizeNonIcon]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IL_Create" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Creates a new ImageList, initially empty, and returns the unique ID of the ImageList (or 0 upon failure).&#x0a;" >
+				<Param name="[InitialCount" />
+				<Param name="GrowCount" />
+				<Param name="LargeIcons]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IL_Destroy" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Deletes the specified ImageList and returns 1 upon success and 0 upon failure.&#x0a;" >
+				<Param name="ImageListID" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Include" />
+		<KeyWord name="IncludeAgain" />
+		<KeyWord name="InputLevel" />
+		<KeyWord name="Insert" />
+		<KeyWord name="InsertAt" />
+		<KeyWord name="InstallKeybdHook" />
+		<KeyWord name="InstallMouseHook" />
+		<KeyWord name="InStr" func="yes" >
+			<Overload retVal="&#x0a;FoundPos := " descr="&#x0a;Searches for a given occurrence of a string, from the left or the right.&#x0a;" >
+				<Param name="Haystack" />
+				<Param name="Needle" />
+				<Param name="[CaseSensitive := false" />
+				<Param name="StartingPos := 1" />
+				<Param name="Occurrence := 1]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Interrupt" />
+		<KeyWord name="IsByRef" func="yes" >
+			<Overload retVal="&#x0a;TrueOrFalse := " descr="&#x0a;Returns a non-zero number if a ByRef parameter of a function was supplied with the specified variable.&#x0a;" >
+				<Param name="ParameterVar" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IsFunc" func="yes" >
+			<Overload retVal="&#x0a;MinParamsPlus1 := " descr="&#x0a;Returns a non-zero number if the specified function exists in the script.&#x0a;" >
+				<Param name="FunctionName" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IsLabel" func="yes" >
+			<Overload retVal="&#x0a;TrueOrFalse := " descr="&#x0a;Returns a non-zero number if the specified label exists in the script.&#x0a;" >
+				<Param name="LabelName" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IsObject" func="yes" >
+			<Overload retVal="&#x0a;TrueOrFalse := " descr="&#x0a;Returns a non-zero number if the specified value is an object.&#x0a;" >
+				<Param name="ObjectValue" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IsOptional" />
+		<KeyWord name="KeyHistory" />
+		<KeyWord name="Label" />
+		<KeyWord name="Length" />
+		<KeyWord name="Line" />
+		<KeyWord name="LineCount" />
+		<KeyWord name="List" />
+		<KeyWord name="Ln" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the natural logarithm (base e) of Number.&#x0a;The result is formatted as floating point.&#x0a;If Number is negative, an empty string is returned.&#x0a;" >
+                <Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LoadPicture" func="yes" >
+			<Overload retVal="&#x0a;Handle := " descr="&#x0a;Loads a picture from file and returns a bitmap or icon handle.&#x0a;" >
+				<Param name="Filename" />
+				<Param name="[Options" />
+				<Param name="ByRef ImageType]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Lock" />
+		<KeyWord name="Log" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the logarithm (base 10) of Number.&#x0a;The result is formatted as floating point.&#x0a;If Number is negative, an empty string is returned.&#x0a;" >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Loop" />
+		<KeyWord name="LTrim" func="yes" >
+			<Overload retVal="&#x0a;Result := " descr="&#x0a;Trims characters from the beginning of a string.&#x0a;" >
+				<Param name="String" />
+				<Param name="OmitChars := &quot; `t&quot;" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_Add" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Adds a new row to the bottom of the list.&#x0a;" >
+				<Param name="[Options" />
+				<Param name="Field1" />
+				<Param name="Field2" />
+				<Param name="...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_Delete" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Deletes the specified row or all rows.&#x0a;" >
+				<Param name="[RowNumber]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_DeleteCol" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Deletes the specified column and all of the contents beneath it.&#x0a;" >
+				<Param name="ColumnNumber" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_GetCount" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the total number of rows or columns, or the number of selected rows only.&#x0a;" >
+				<Param name="[Mode]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_GetNext" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the row number of the next selected, checked, or focused row.&#x0a;" >
+				<Param name="[StartingRowNumber" />
+				<Param name="RowType]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_GetText" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Retrieves the text at the specified row and column.&#x0a;" >
+				<Param name="OutputVar" />
+				<Param name="RowNumber" />
+				<Param name="[ColumnNumber]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_Insert" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Inserts a new row before the specified row.&#x0a;" >
+				<Param name="RowNumber" />
+				<Param name="[Options" />
+				<Param name="Col1" />
+				<Param name="Col2" />
+				<Param name="...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_InsertCol" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Inserts a new column before the specified column.&#x0a;" >
+				<Param name="ColumnNumber" />
+				<Param name="[Options" />
+				<Param name="ColumnTitle]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_Modify" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Modifies the attributes and/or text of a row.&#x0a;" >
+				<Param name="RowNumber" />
+				<Param name="[Options" />
+				<Param name="NewCol1" />
+				<Param name="NewCol2" />
+				<Param name="...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_ModifyCol" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Modifies the attributes and/or text of the specified column and its header.&#x0a;" >
+				<Param name="[ColumnNumber" />
+				<Param name="Options" />
+				<Param name="ColumnTitle]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LV_SetImageList" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Sets an ImageList created beforehand which is used to display icons.&#x0a;" >
+				<Param name="ImageListID" />
+				<Param name="[IconType]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MainWindow" />
+		<KeyWord name="Margin" />
+		<KeyWord name="Max" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the highest value of one or more numbers.&#x0a;If one of the input values is non-numeric, an empty string is returned.&#x0a;You can also specify a variadic parameter to compare multiple values within an array.&#x0a;" >
+				<Param name="Number1" />
+				<Param name="[Number2" />
+				<Param name="...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MaxHotkeysPerInterval" />
+		<KeyWord name="MaxIndex" />
+		<KeyWord name="MaxMem" />
+		<KeyWord name="MaxThreads" />
+		<KeyWord name="MaxThreadsBuffer" />
+		<KeyWord name="MaxThreadsPerHotkey" />
+		<KeyWord name="Menu" />
+		<KeyWord name="MenuGetHandle" func="yes" >
+			<Overload retVal="&#x0a;Handle := " descr="&#x0a;Retrieves the Win32 menu handle of a menu.&#x0a;" >
+				<Param name="MenuName" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MenuGetName" func="yes" >
+			<Overload retVal="&#x0a;MenuName := " descr="&#x0a;Retrieves the name of a menu given a handle to its underlying Win32 menu.&#x0a;" >
+				<Param name="Handle" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MenuMaskKey" />
+		<KeyWord name="Min" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the lowest value of one or more numbers.&#x0a;If one of the input values is non-numeric, an empty string is returned.&#x0a;You can also specify a variadic parameter to compare multiple values within an array.&#x0a;" >
+				<Param name="Number1" />
+				<Param name="[Number2" />
+				<Param name="...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Minimize" />
+		<KeyWord name="MinIndex" />
+		<KeyWord name="MinMax" />
+		<KeyWord name="Mod" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the remainder when Dividend is divided by Divisor.&#x0a;The sign of the result is always the same as the sign of the first parameter.&#x0a;If either input is a floating point number, the result is also a floating point number.&#x0a;If the second parameter is zero, the function yields a blank result (empty string).&#x0a;" >
+				<Param name="Dividend" />
+				<Param name="Divisor" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Monitor" />
+		<KeyWord name="MonitorCount" />
+		<KeyWord name="MonitorName" />
+		<KeyWord name="MonitorPrimary" />
+		<KeyWord name="MonitorWorkArea" />
+		<KeyWord name="Move" />
+		<KeyWord name="MoveDraw" />
+		<KeyWord name="MsgBox" />
+		<KeyWord name="Name" />
+		<KeyWord name="New" />
+		<KeyWord name="Next" />
+		<KeyWord name="NoDefault" />
+		<KeyWord name="NoEnv" />
+		<KeyWord name="NoIcon" />
+		<KeyWord name="NoMainWindow" />
+		<KeyWord name="NoStandard" />
+		<KeyWord name="NoTimers" />
+		<KeyWord name="NoTrayIcon" />
+		<KeyWord name="NumGet" func="yes" >
+			<Overload retVal="&#x0a;Number := " descr="&#x0a;Returns the binary number stored at the specified address+offset.&#x0a;" >
+				<Param name="VarOrAddress" />
+				<Param name="[Offset := 0]" />
+				<Param name="[Type := &quot;UPtr&quot;]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NumPut" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Stores a number in binary format at the specified address+offset.&#x0a;" >
+				<Param name="Number" />
+				<Param name="VarOrAddress" />
+				<Param name="[Offset := 0]" />
+				<Param name="[Type := &quot;UPtr&quot;]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ObjAddRef" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Increments an object's reference count.&#x0a;" >
+				<Param name="Ptr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ObjBindMethod" func="yes" >
+			<Overload retVal="&#x0a;BoundFunc := " descr="&#x0a;Creates a BoundFunc object which calls a method of a given object.&#x0a;" >
+				<Param name="Obj" />
+				<Param name="Method" />
+				<Param name="Params" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ObjGetBase" func="yes" >
+			<Overload retVal="&#x0a;BaseObject := " descr="&#x0a;Returns the object's base object.&#x0a;No meta-functions are called.&#x0a;The object's base is returned even if the key &quot;base&quot; has been stored in the object (such as with ObjRawSet or SetCapacity).&#x0a;An empty string is returned if the object has no base.&#x0a;An exception is thrown if Object is of an incorrect type.&#x0a;" >
+				<Param name="Object" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ObjRawGet" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Retrieves the value associated with a given key within Object.&#x0a;If Object does not contain Key, the return value is an empty string.&#x0a;No meta-functions or property functions are called.&#x0a;The content of Object's base objects are not considered, and since base itself is a property and not a key-value pair by default, it is typically not returned.&#x0a;An exception is thrown if Object is of an incorrect type.&#x0a;" >
+				<Param name="Object" />
+				<Param name="Key" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ObjRawSet" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Stores or overwrites a key-value pair in the object.&#x0a;This function is provided to allow scripts to bypass the __Set meta-function and properties.&#x0a;If that isn't required, a normal assignment should be used instead.&#x0a;Since the purpose is to bypass meta-functions, this is a function only, not a method.&#x0a;Calling a built-in method generally causes the __Call meta-function to be called.&#x0a;An exception is thrown if Object is of an incorrect type.&#x0a;" >
+                <Param name="Object" />
+				<Param name="Key" />
+				<Param name="Value" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ObjRelease" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Decrements an object's reference count.&#x0a;" >
+				<Param name="Ptr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ObjSetBase" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Sets the object's base object.&#x0a;No meta-functions are called.&#x0a;The object's base is set even if the key &quot;base&quot; has been stored in the object (such as with ObjRawSet or SetCapacity).&#x0a;An empty string is returned if the object has no base.&#x0a;An exception is thrown if Object is of an incorrect type or if BaseObject is not an object or empty string.&#x0a;" >
+				<Param name="Object" />
+				<Param name="BaseObject" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OnClipboardChange" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Registers a function or function object to run whenever the clipboard's content changes.&#x0a;" >
+				<Param name="Func" />
+				<Param name="[AddRemove]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OnError" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Specifies a function to run automatically when an unhandled error occurs.&#x0a;" >
+				<Param name="Func" />
+				<Param name="[AddRemove]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OnExit" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Specifies a callback function or subroutine to run automatically when the script exits.&#x0a;" >
+				<Param name="Func" />
+				<Param name="[AddRemove]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OnMessage" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Specifies a function or function object to call automatically when the script receives the specified message.&#x0a;" >
+				<Param name="MsgNumber" />
+				<Param name="FuncObj" />
+				<Param name="0" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Options" />
+		<KeyWord name="Ord" func="yes" >
+			<Overload retVal="&#x0a;Number := " descr="&#x0a;Returns the ordinal value (numeric character code) of the first character in the specified string.&#x0a;" >
+				<Param name="String" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Pause" />
+		<KeyWord name="Persistent" />
+		<KeyWord name="PID" />
+		<KeyWord name="Pop" />
+		<KeyWord name="Pos" />
+		<KeyWord name="Priority" />
+		<KeyWord name="ProcessName" />
+		<KeyWord name="ProcessPath" />
+		<KeyWord name="Push" />
+		<KeyWord name="RawRead" />
+		<KeyWord name="RawWrite" />
+		<KeyWord name="Read" />
+		<KeyWord name="ReadLine" />
+		<KeyWord name="Redraw" />
+		<KeyWord name="RegExMatch" func="yes" >
+			<Overload retVal="&#x0a;FoundPos := " descr="&#x0a;Determines whether a string contains a pattern (regular expression).&#x0a;" >
+				<Param name="Haystack" />
+				<Param name="NeedleRegEx" />
+				<Param name="[OutputVar" />
+				<Param name="StartingPosition := 1]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RegExReplace" func="yes" >
+			<Overload retVal="&#x0a;NewStr := " descr="&#x0a;Replaces occurrences of a pattern (regular expression) inside a string.&#x0a;" >
+				<Param name="Haystack" />
+				<Param name="NeedleRegEx" />
+				<Param name="[Replacement := &quot;&quot;" />
+				<Param name="OutputVarCount := &quot;&quot;" />
+				<Param name="Limit := -1" />
+				<Param name="StartingPosition := 1]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Region" />
+		<KeyWord name="RegisterCallback" func="yes" >
+			<Overload retVal="&#x0a;Address := " descr="&#x0a;Creates a machine-code address that when called, redirects the call to a function in the script.&#x0a;" >
+				<Param name="&quot;FunctionName&quot;" />
+				<Param name="[Options := &quot;&quot;" />
+				<Param name="ParamCount := FormalCount" />
+				<Param name="EventInfo := Address]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Remove" />
+		<KeyWord name="RemoveAt" />
+		<KeyWord name="Rename" />
+		<KeyWord name="Return" />
+		<KeyWord name="Round" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns Number rounded to N decimal places.&#x0a;If N is omitted or 0, Number is rounded to the nearest integer:&#x0a;If N is positive number, Number is rounded to N decimal places:&#x0a;If N is negative, Number is rounded by N digits to the left of the decimal point:&#x0a;" >
+				<Param name="Number" />
+				<Param name="[N]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RTrim" func="yes" >
+			<Overload retVal="&#x0a;Result := " descr="&#x0a;Trims characters from the end of a string.&#x0a;" >
+				<Param name="String" />
+				<Param name="OmitChars := &quot; `t&quot;" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SB_SetIcon" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Displays a small icon to the left of the text in the specified part.&#x0a;" >
+				<Param name="Filename" />
+				<Param name="[IconNumber" />
+				<Param name="PartNumber]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SB_SetParts" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Divides the bar into multiple sections according to the specified widths (in pixels).&#x0a;" >
+				<Param name="[Width1" />
+				<Param name="Width2" />
+				<Param name="... Width255]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SB_SetText" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Displays NewText in the specified part of the status bar.&#x0a;" >
+				<Param name="NewText" />
+				<Param name="[PartNumber" />
+				<Param name="Style]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Seek" />
+		<KeyWord name="Selected" />
+		<KeyWord name="Serial" />
+		<KeyWord name="SetCapacity" />
+		<KeyWord name="Show" />
+		<KeyWord name="ShowDropDown" />
+		<KeyWord name="Sin" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the trigonometric sine of Number.&#x0a;Number must be expressed in radians.&#x0a;" >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SingleInstance" />
+		<KeyWord name="Sleep" />
+		<KeyWord name="Sqrt" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the square root of Number.&#x0a;The result is formatted as floating point. If Number is negative, the function yields a blank result (empty string).&#x0a;" >
+                <Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Standard" />
+		<KeyWord name="Static" />
+		<KeyWord name="Status" />
+		<KeyWord name="StatusCD" />
+		<KeyWord name="StrGet" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Copies a string from a memory address, optionally converting from a given code page.&#x0a;" >
+				<Param name="Address" />
+				<Param name="[Length" />
+				<Param name="Encoding := None]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="StrLen" func="yes" >
+			<Overload retVal="&#x0a;Length := " descr="&#x0a;Retrieves the count of how many characters are in a string.&#x0a;" >
+				<Param name="String" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="StrPut" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Copies a string to a memory address, optionally converting to a given code page.&#x0a;" >
+				<Param name="String" />
+				<Param name="[Encoding := None]" />
+			</Overload>
+			<Overload retVal="&#x0a;" descr="&#x0a;Copies a string to a memory address, optionally converting to a given code page.&#x0a;" >
+				<Param name="String" />
+				<Param name="Address" />
+				<Param name="[Length]" />
+				<Param name="[Encoding := None]" />
+			</Overload>
+        </KeyWord>
+		<KeyWord name="StrReplace" func="yes" >
+			<Overload retVal="&#x0a;ReplacedStr := " descr="&#x0a;Replaces the specified substring with a new string.&#x0a;" >
+				<Param name="Haystack" />
+				<Param name="SearchText" />
+				<Param name="[ReplaceText" />
+				<Param name="OutputVarCount" />
+				<Param name="Limit := -1]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="StrSplit" func="yes" >
+			<Overload retVal="&#x0a;Array := " descr="&#x0a;Separates a string into an array of substrings using the specified delimiters.&#x0a;" >
+				<Param name="String" />
+				<Param name="[Delimiters" />
+				<Param name="OmitChars" />
+				<Param name="MaxParts := -1]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Style" />
+		<KeyWord name="Submit" />
+		<KeyWord name="SubStr" func="yes" >
+			<Overload retVal="&#x0a;NewStr := " descr="&#x0a;Retrieves one or more characters from the specified position in a string.&#x0a;" >
+				<Param name="String" />
+				<Param name="StartingPos" />
+				<Param name="[Length]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Tab" />
+		<KeyWord name="TabLeft" />
+		<KeyWord name="TabRight" />
+		<KeyWord name="Tan" func="yes" >
+			<Overload retVal="&#x0a;Value := " descr="&#x0a;Returns the trigonometric tangent of Number.&#x0a;Number must be expressed in radians.&#x0a;" >
+				<Param name="Number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Tell" />
+		<KeyWord name="Text" />
+		<KeyWord name="this." />
+		<KeyWord name="Throw" />
+		<KeyWord name="Tip" />
+		<KeyWord name="ToggleCheck" />
+		<KeyWord name="ToggleEnable" />
+		<KeyWord name="Top" />
+		<KeyWord name="TransColor" />
+		<KeyWord name="Transparent" />
+		<KeyWord name="Trim" func="yes" >
+			<Overload retVal="&#x0a;Result" descr="&#x0a;Trims characters from the beginning and end of a string.&#x0a;" >
+				<Param name="String" />
+				<Param name="OmitChars := &quot; `t&quot;" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Try" />
+		<KeyWord name="TV_Add" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Adds a new item to the TreeView and returns its unique Item ID number (or 0 upon failure).&#x0a;" >
+				<Param name="Name" />
+				<Param name="[ParentItemID" />
+				<Param name="Options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_Delete" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Deletes the specified item or all items.&#x0a;" >
+				<Param name="[ItemID]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_Get" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the ID number of the specified item if it has the specified attribute.&#x0a;" >
+				<Param name="ItemID" />
+				<Param name="Attribute" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_GetChild" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the ID number of the specified item's first/top child.&#x0a;" >
+				<Param name="ParentItemID" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_GetCount" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the total number of items in the control.&#x0a;" >
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_GetNext" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the ID number of the next item below the specified item.&#x0a;" >
+				<Param name="[ItemID" />
+				<Param name="ItemType]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_GetParent" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the specified item's parent as an item ID.&#x0a;" >
+				<Param name="ItemID" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_GetPrev" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the ID number of the sibling above the specified item.&#x0a;" >
+				<Param name="ItemID" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_GetSelection" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Returns the selected item's ID number.&#x0a;" >
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_GetText" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Retrieves the text/name of the specified item.&#x0a;" >
+				<Param name="OutputVar" />
+				<Param name="ItemID" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_Modify" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Modifies the attributes and/or name of an item.&#x0a;" >
+				<Param name="ItemID" />
+				<Param name="[Options" />
+				<Param name="NewName]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TV_SetImageList" func="yes" >
+			<Overload retVal="&#x0a;" descr="&#x0a;Sets an ImageList created beforehand which is used to display icons.&#x0a;" >
+				<Param name="ImageListID" />
+				<Param name="[IconType]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Type" />
+		<KeyWord name="Uncheck" />
+		<KeyWord name="Unicode" />
+		<KeyWord name="Unlock" />
+		<KeyWord name="Until" />
+		<KeyWord name="UseErrorLevel" />
+		<KeyWord name="UseHook" />
+		<KeyWord name="VarSetCapacity" func="yes" >
+			<Overload retVal="&#x0a;GrantedCapacity := " descr="&#x0a;Enlarges a variable's holding capacity or frees its memory. Normally, this is necessary only for unusual circumstances such as DllCall.&#x0a;" >
+				<Param name="TargetVar" />
+				<Param name="[RequestedCapacity" />
+				<Param name="FillByte]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Visible" />
+		<KeyWord name="Wait" />
+		<KeyWord name="WaitClose" />
+		<KeyWord name="Warn" />
+		<KeyWord name="While" />
+		<KeyWord name="WinActivateForce" />
+		<KeyWord name="WinActive" func="yes" >
+			<Overload retVal="&#x0a;UniqueID := " descr="&#x0a;Checks if the specified window exists and is currently active (foremost). If it is, WinActive() returns its Unique ID (HWND).&#x0a;" >
+				<Param name="WinTitle" />
+				<Param name="[WinText" />
+				<Param name="ExcludeTitle" />
+				<Param name="ExcludeText]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WinExist" func="yes" >
+			<Overload retVal="&#x0a;UniqueID := " descr="&#x0a;Checks if a matching window exists. If it is, WinExist() returns the Unique ID (HWND) of the first matching window.&#x0a;" >
+				<Param name="WinTitle" />
+				<Param name="[WinText" />
+				<Param name="ExcludeTitle" />
+				<Param name="ExcludeText]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Write" />
+		<KeyWord name="WriteLine" />
+	</AutoComplete>
+</NotepadPlus>
