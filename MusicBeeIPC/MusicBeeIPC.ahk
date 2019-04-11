@@ -18,7 +18,6 @@ class MusicBeeIPC {
 
         #include %A_LineFile%\..\Lib\Enums.ahk
         #include %A_LineFile%\..\Lib\Constants.ahk
-        DetectHiddenWindows, On
         
         return this
     }
